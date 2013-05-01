@@ -1,4 +1,4 @@
-#' anneal
+#' uphill search on fucntion
 #' 
 #' @description
 #' General anneal function, where we conduct a uphill search on the function to find maximum
@@ -11,7 +11,7 @@
 #' @param g rate of temperature
 #' 
 #' @examples
-#' #anneal(sin, 0, 100, 1, 10, .99)
+#' anneal(onedfunction, 2, 100, 1, 10, .99)
 #' @author Ernest Chan \email{faiernest418@@gmail.com}
 #' 
 #' @export

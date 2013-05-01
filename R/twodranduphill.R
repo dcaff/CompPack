@@ -1,4 +1,4 @@
-#' twodranduphill
+#' uphill search on matrix function
 #' 
 #' @description
 #' This function is use to do a random uphill search on any 2 demision data set
@@ -11,7 +11,7 @@
 #' @param t is the tempearture, where its default at 100
 #' 
 #' @examples
-#' twodranduphill(twodfunction, 1, .4, 1, 100, 10)
+#' twodranduphill(twodfunction, 3, 2, 1, 10, 1)
 #' 
 #' @author Ernest Chan \email{faiernest418@@gmail.com}
 #' 
